@@ -9,7 +9,7 @@ from ultralytics import YOLO
 
 import pymongo
 from pymongo import MongoClient
-client = pymongo.MongoClient("mongodb+srv://aunni:12345@cluster0.obaxokc.mongodb.net/")
+client = pymongo.MongoClient("mongodb+srv://aunni:*****@cluster0.obaxokc.mongodb.net/")
 db = client['Cluster0']
 collection = db['Trial']
 
